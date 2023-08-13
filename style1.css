@@ -416,3 +416,9 @@ float-items:center;
   height: 50vh;
   place-items:left;
 }
+h6{
+  background-color:#ff0070;
+  height:50px;
+  border-radius:40px;
+  font-size:50px;
+}
