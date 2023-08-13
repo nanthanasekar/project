@@ -199,6 +199,84 @@ p {
 .card:hover p {
   color: #f0f0f0;
 }
+.store h2{
+  text-align: center;
+  color: #ff0070;
+}
+#marquee .pic-container{
+  display: flex;
+  height: 70vh;
+  animation: marquee 10s infinite linear;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer{
+  padding: 20px 0;
+  background-color: #Fdb0c0;
+  border-radius: 30px;
+  width: 100%;
+
+}
+.col{
+  width: 100%;
+  padding-left: 20px;
+}
+.col h4{
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #FF007F;
+  position: relative;
+  margin-bottom: 24px;
+  padding-left: 25px;
+}
+.col h4::before{
+ position: absolute;
+ height: 2px;
+ width: 50px;
+ Left:0;
+ bottom: .8px;
+}
+.col ul li:not(last child){
+  margin-bottom: 15px;
+  list-style: none;
+
+}
+.col ul li a{
+  color: #FF007F;
+  list-style: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .4s;
+}
+.col ul li a:hover{
+  color: white;
+}
+.col .social{
+  width:200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.col .social a{
+  height: 40px;
+  width:40px;
+  background-color: #FF007F;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: .4s;
+}
+.col .social a:hover{
+  transform: scale(1.2);
+}
+
+
 @media screen and (min-width: 768px) {
   section {
     padding: 0 2em;
@@ -290,7 +368,7 @@ transform: translate(0, 100%);
 .image {
   opacity: 1;
   display: block;
-  margin-left: 180px;
+  margin-right: 150px;
   height: 600px;
   text-align: center;
   transition: .5s ease;
@@ -329,7 +407,7 @@ transform: translate(0, 100%);
 .why h1{
   font-size:70px;
   text-align:center;
-float-items:center;
+  float:center;
 }
 
 .why a {
